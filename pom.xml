@@ -1,6 +1,32 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>gov.nist.hit.gvt</groupId>
-  <artifactId>gvt-plugins</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gov.nist.hit.gvt</groupId>
+	<artifactId>gvt-plugins</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>gov.nist.hit.elr</groupId>
+			<artifactId>elr-r1-validation-plugins</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>gov.nist.healthcare</groupId>
+			<artifactId>hl7-v2-validation-plugin-utils</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>gov.nist.healthcare.hl7.v2.iz-plugins</groupId>
+			<artifactId>iz-plugins</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+	</dependencies>
+
 </project>
+
+	
