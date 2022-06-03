@@ -3,12 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>gov.nist.hit.gvt</groupId>
 	<artifactId>gvt-plugins</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>gov.nist.hit.elr</groupId>
 			<artifactId>elr-r1-validation-plugins</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>gov.nist.healthcare.pcd.pcdtool</groupId>
+			<artifactId>pcdtool-message-validation</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
@@ -25,6 +31,12 @@
 			<version>1.0.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>gov.nist.healthcare.mu.loi-r1</groupId>
+			<artifactId>loi-message-validation</artifactId>
+			<version>1.0.3-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
 
 </project>
