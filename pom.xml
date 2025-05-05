@@ -9,7 +9,13 @@
 		<dependency>
 			<groupId>gov.nist.hit.elr</groupId>
 			<artifactId>elr-r1-validation-plugins</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>1.0.2-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.logging.log4j</groupId>
+					<artifactId>log4j-core</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		
 		<dependency>
@@ -17,7 +23,6 @@
 			<artifactId>pcdtool-message-validation</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>gov.nist.healthcare</groupId>
@@ -36,6 +41,14 @@
 			<artifactId>loi-message-validation</artifactId>
 			<version>1.0.3-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>
+		  <groupId>gov.nist.hit.iz</groupId>
+		  <artifactId>iz-validation-plugins</artifactId>
+		  <version>1.0.1-SNAPSHOT</version>
+		</dependency>
+
+
 		
 	</dependencies>
 
